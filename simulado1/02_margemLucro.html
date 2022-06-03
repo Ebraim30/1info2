@@ -1,0 +1,20 @@
+<meta charset="UTF-8" />
+<script>
+    // No comércio, os preços dos produtos geralmente são definidos com base em uma margem percentual de lucro. Elabore um algoritmo que leia o valor de compra de um produto e o percentual de lucro desejado, e escreva o valor de revenda deste produto.
+    // Como exemplo, considere um produto adquirido por uma loja pelo valor de R$ 100,00. Se essa loja aplicar a esse produto um percentual de 15% de lucro, o lucro será de R$ 15,00 e o produto será revendido pelo valor de R$ 115,00. Observe que o lucro não é sempre de 15%, mas será informado pelo usuário.
+
+    // Entrada de dados: o que o usuário vai precisar informar
+
+
+    // Processamento: os cálculos para chegar no valor de saída, a partir dos dados de entrada
+
+
+    // Saída: a informação que foi calculada e será mostrada ao usuário
+
+const valordoproduto = Number(prompt("INforme o valor da compra"))
+const lucro = Number(prompt("informe o lucro do produto"))
+
+const valorcomlucro = valordoproduto*(lucro / 100)
+
+document.write(`O valor com lucro é ${valordoproduto + valorcomlucro}`)
+</script>

@@ -1,0 +1,17 @@
+<meta charset="UTF-8" />
+<script>
+    // Precisamos comprar pisos cerâmicos para uma casa. Sabemos que uma caixa de pisos cobre 2 metros quadrados. Peça que o usuário informe a quantidade de metros quadrados da casa e lhe informe a quantidade de caixas a serem compradas. Lembre-se de que não pode faltar piso, então você precisa arredondar esse valor para cima, mesmo que sobrem alguns pisos. Peça também o preço de cada caixa e informe o valor total a pagar pelos pisos.
+    // Por exemplo, se forem 51 metros quadrados, com a cobertura de 2 metros quadrados por caixa, serão necessárias 25,5 caixas. Nesse caso, seria necessário comprar 26 caixas. Ainda nesse exemplo ilustrativo, se a caixa custasse R$ 100,00, vocẽ pagaria R$ 2600,00.
+
+    // Entrada de dados: o que o usuário vai precisar informar
+
+
+    // Processamento: os cálculos para chegar no valor de saída, a partir dos dados de entrada
+
+
+    // Saída: a informação que foi calculada e será mostrada ao usuário
+
+    const metros = Number(prompt("Informe a quantidade de metros"))
+    const totaldecaixas = Math.ceil(metros / 2) 
+    document.write(`Total de caixas são ${totaldecaixas}`)
+</script>
