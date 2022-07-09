@@ -1,0 +1,15 @@
+<script>
+    //Receba os três lados de um triângulo. Informe se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno. Dica: para formar um triângulo, a soma de quaisquer dois lados precisa ser maior que o terceiro lado.
+
+    const PrimeiroLado = parseInt(prompt("Informe as medidas do primeiro lado(hipotenusa):"))
+    const SegundoLado = parseInt(prompt("Informe as medidas do segundo lado(cateto):"))
+    const TerceiroLado = parseInt(prompt("Informe o terceiro lado(cateto):"))
+    
+    if (SegundoLado == TerceiroLado && PrimeiroLado < SegundoLado && PrimeiroLado < TerceiroLado) {
+        document.write(`É um triângulo isósceles`)
+    } else if(PrimeiroLado != SegundoLado && PrimeiroLado != TerceiroLado && SegundoLado != TerceiroLado){
+        document.write(`É um triângulo escaleno`)
+    }else{
+        document.write(`É um triângulo equilátero`)
+    }
+</script>

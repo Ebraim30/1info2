@@ -1,0 +1,23 @@
+<script>
+    //Recebe um salário e sua porcentagem de aumento, e retorna  o novo salário
+
+    const salário = Number(prompt("Informe o Salário:"))
+    const aumento = Number(prompt("Informe o aumento em %:"))
+
+    const aumento_decimal = aumento / 100
+    const valor_do_aumento = salário * aumento_decimal
+    const novo_salário = salário + valor_do_aumento
+
+    document.write(`<br/>${salário} % ${aumento} = ${novo_salário}`)
+
+
+
+
+
+
+
+
+
+
+
+</script>

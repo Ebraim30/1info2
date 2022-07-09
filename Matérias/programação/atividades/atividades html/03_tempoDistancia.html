@@ -1,0 +1,23 @@
+<script>
+    //Recebe uma distância e a velocidade de movimentação, e retorna as horas que seriam gastas para percorrer em linha reta.
+    const distancia = Number(prompt("Infrome a Distancia em kilometros:"))
+    const velocidade = Number(prompt("Informe a velocidade por hora:"))
+
+    const tempoViagem = distancia / velocidade
+    const tempoViagemEmMinutos = tempoViagem * 60
+
+    const tempoViagemParteHoras = Math.floor(tempoViagemEmMinutos / 60)
+
+    document.write(`<br/>Tempo de percurso: ${tempoViagemParteHoras}h`)
+
+
+
+
+
+
+
+
+
+
+
+</script>

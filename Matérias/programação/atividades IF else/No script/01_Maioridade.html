@@ -1,0 +1,16 @@
+<script>
+
+    //Leia a idade de uma pessoa e informe se ela já chegou à maioridade.Se ela ainda não chegou, informe quantos anos faltam para a maioridade
+    
+    const Nome = prompt("Informe o nome da pessoa:")
+    const Idade = parseInt(prompt("Informe a idade da pessoa:"))
+
+    const FaltadeIdade = 18 - Idade
+
+    if (Idade >= 18){
+        alert(`O(a) ${Nome} já chegou a maior idade`)
+    } else {
+        alert(`O(a) ${Nome} não chegou a maior idade, falta ${FaltadeIdade} ano(s) para a maior idade`)
+    }
+    
+</script>

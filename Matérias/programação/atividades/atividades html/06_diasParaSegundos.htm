@@ -1,0 +1,22 @@
+<script>
+//Recebe uma data em dias com horas, minutos e segundos, e retorna a data em segundos.
+const dias = Number(prompt("Digite a quantidade de DIAS:"))
+const horas1 = Number(prompt("Informe quantas horas:"))
+const minutos1 = Number(prompt("Quantos minutos:"))
+const segundos1 = Number(prompt("Quantos segundos:"))
+
+
+const horas2 = dias * 24
+const horas = horas1 + horas2
+const minutos2 = horas * 60
+const minutos = minutos1 + minutos2
+const segundos2 = minutos * 60
+const segundos = segundos1 + segundos2
+
+document.write(`</br>Dias = ${dias}`)
+document.write(`</br>Horas = ${horas}`)
+document.write(`</br>Minutos = ${minutos}`)
+document.write(`</br>Segundos = ${segundos}`)
+
+
+</script>

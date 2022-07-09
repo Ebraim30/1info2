@@ -1,0 +1,16 @@
+<script>
+    
+    //Considerando que no Brasil é possível votar a partir dos 16 anos de idade, leia o ano de nascimento de   uma pessoa e informe se ela poderá votar no ano atual. Ignore mês e dia de nascimento.
+
+    const Nome = prompt("Informe o nome da pessoa:")
+    const Nascimento = parseInt(prompt("Informe sua data de nascimento:"))
+
+    const FaltadeIdade = Nascimento - 2006
+
+    if ( Nascimento <= 2006) {
+        alert(`O(a) ${Nome} tem idade para votar`)
+    } else {
+        alert(`O(a) ${Nome} não tem idade para votar, lhe falta ${FaltadeIdade} ano(s)`)
+    }
+
+</script>

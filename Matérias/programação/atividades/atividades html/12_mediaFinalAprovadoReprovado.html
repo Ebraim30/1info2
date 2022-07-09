@@ -1,0 +1,21 @@
+<script>
+//Recebe as notas das 2 provas e 2 exercícios de programação e retorna se o aluno foi ou não aprovado. As provas têm peso 7 e os exercícios têm peso 3. Cada parcial tem peso igual.  Uma forma de resolver é calcular a 1a parcial, com a média ponderada entre  p1 e ep1, depois calcular a 2a parcial, com as notas de p2 e ep2 e depois calcular a média aritmética entre a 1a e a 2a parcial. A média para passar é 6.0
+
+const p1 = Number(prompt("Informe o valor da primeira prova:"))
+const p2 = Number(prompt("Informe o valor da segunda prova:"))
+const a1 = Number(prompt("Informe o valor do primeiro trabalho:"))
+const a2 = Number(prompt("Informe o valor do segundo trabalho:"))
+
+const mediaPonderada01 = (p1 * 7 + a1 * 3) / 10
+const mediaPonderada02 = (p2 * 7 + a2 * 3) / 10
+const mediaFinal = (mediaPonderada01 + mediaPonderada02) / 2
+
+if (mediaFinal >= 6)
+    situacao = "Aprovado"
+else
+    situacao = "Reprovado"
+
+document.write(`<br/> Média final : ${mediaFinal}`)
+document.write(`<br/> Situação : ${situacao}`)
+
+</script>

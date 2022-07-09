@@ -1,0 +1,15 @@
+<script>
+//Recebe quanto ganha por hora e quantas horas trabalho ao mês, e retorna o salário líquido.
+
+const salarioBruto = Number(prompt("Informe o salario Bruto:"))
+
+const descontoINSS = salarioBruto * 0.08
+const descontoIR = salarioBruto * 0.11
+const descontoSindicato = salarioBruto * 0.05
+const salarioLiquido = salarioBruto - (descontoINSS + descontoIR + descontoSindicato)
+
+document.write(`<br/>Seu salario liquido e: ${salarioLiquido}`)
+
+
+
+</script>
