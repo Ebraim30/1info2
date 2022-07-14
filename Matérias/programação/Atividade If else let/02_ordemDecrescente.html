@@ -5,10 +5,20 @@
     */
 
     //ENTRADA
+    const PrimeiroNumero = Number(prompt("Informe o primeiro numero:"))
+    const SegundoValor = Number(prompt("Informe o segundo numero:"))
+    const TerceiroValor = Number(prompt("Informe o terceiro numero:"))
 
 
     //PROCESSAMENTO
 
+    if (PrimeiroNumero > SegundoValor && SegundoValor > TerceiroValor && PrimeiroNumero > TerceiroValor) {
+        document.write(`Primeiro Número: ${PrimeiroNumero}</br>Segundo Número: ${SegundoValor} </br>Terceiro Número: ${TerceiroValor}`)
+    }else if(SegundoValor > PrimeiroNumero && SegundoValor > TerceiroValor && PrimeiroNumero > TerceiroValor){
+        document.write(`Segundo Número: ${SegundoValor} </br>Primeiro Número: ${PrimeiroNumero} </br>Terceiro Número: ${TerceiroValor}`)
+    }else if(TerceiroValor > SegundoValor && TerceiroValor > PrimeiroNumero && SegundoValor > PrimeiroNumero){
+        document.write(`Terceiro Número: ${TerceiroValor} </br> Segundo Número: ${SegundoValor} </br>Primeiro Número: ${PrimeiroNumero}`)
+    }
     
     //SAÍDA
 
