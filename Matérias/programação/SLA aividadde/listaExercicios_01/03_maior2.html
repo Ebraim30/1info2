@@ -1,0 +1,17 @@
+<meta charset="UTF-8" />
+<script>
+    //Problema: Maior 2
+    //Construa um algoritmo que leia dois números inteiros. Verifique qual dos dois números é maior e o escreva.
+
+    //Entrada
+    const n1 = Number(prompt("Número 1:"));    
+    const n2 = Number(prompt("Número 2: "));
+    let mensagem
+    //Processamento
+    const resultado1 = n1 - n2;
+    const resultado2 = n2 - n1;
+    
+    (resultado1 > 0) ? mensagem ="O número " + n1 + " é o maior" : mensagem = "O número "+ n2 +" é o maior"
+    //Saída
+    alert(mensagem)
+</script>
