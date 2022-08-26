@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+color: #f4e5c2;
+}
+
+#barradenavegacao{
+list-style-type:none;
+margin: -10px -15px 0px -20px;
+padding: 0px 0px 0px 0px;
+border-bottom: 3px solid #a7a0a0;
+overflow: hidden;
+list-style-type: none;
+font-size: 17px;
+font-weight: bolder;
+top: -15px;
+position: sticky;
+background-color: #ffffff
+}
+
+li {
+float: left;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: #1883F5;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #4FEDFF;
+}
+
+.banner{
+flex-wrap: wrap;
+padding-left: 900px;
+padding-right: 1030px;
+width: 10px;
+margin-left: -20px;
+border-bottom:  3px solid #a7a0a0
+}
+
+.primeira-materias{
+display: grid;
+height: 250px;
+}
+
+.primeiras-materia:hover:not(.active) {
+background-color: #bbc9ca;
+}
+
+#primeira-imagem{
+height: 223px;
+width: 350px;
+border-radius: 0px 0px 20px 20px;
+position:absolute
+}
+
+#primeiro-textoIMG {
+left: 20px;
+margin-left: 375px;
+}
+
+#titulo1{
+font-family: 'Silkscreen', cursive;
+text-align: center;
+font-size: 60px;
+color: #1883F5;
+}
+.segunda-materia{
+display: grid;
+height: 250px;
+}
+
+.segunda-materia:hover:not(.active){
+background-color: #bbc9ca;
+}
+
+#segunda-imagem{
+height: 250px;
+width: 350px;
+position: absolute;
+border-radius: 0px 0px 20px 20px;
+position: absolute;
+}
+
+#segundo-textoIMG{
+left: 20px;
+margin-left: 375px;
+}
+
+.terceira-materia{
+display: grid;
+height: 250px;
+}
+
+.terceira-materia:hover:not(.active){
+background-color: #bbc9ca;
+}
+
+#terceira-imagem{
+height: 250px;
+width: 350px;
+position: absolute;
+border-radius: 0px 0px 20px 20px;
+position: absolute;   
+}
+
+#terceiro-textoIMG{
+left: 20px;
+margin-left: 375px;
+}
+
+#rodape{
+display: flex;
+height: 150px;
+background-color: #646060;
+}
+
+.link-esquerdo{
+font-size: 45px;
+padding-top: 45px;
+color: #1883F5;
+}
+
+.link-central{
+padding-left: 675px;
+font-size: 45px;
+padding-top: 45px;
+color: #1883F5;
+}
+
+.link-direito{
+padding-left: 700px;
+font-size: 45px;
+padding-top: 45px;
+color: #1883F5;
+}

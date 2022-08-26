@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+body{
+background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+#barradenavegacao{
+list-style-type:none;
+margin: -10px -7px 0px -20px;
+padding: 0px 0px 0px 0px;
+border-bottom: 3px solid #a7a0a0;
+overflow: hidden;
+list-style-type: none;
+font-size: 17px;
+font-weight: bolder;
+top: -15px;
+position: sticky;
+background-color: #ffffff
+}
+
+li {
+float: left;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: #1883F5;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #4FEDFF;
+}
+
+.banner{
+flex-wrap: wrap;
+padding-left: 900px;
+padding-right: 1020px;
+width: 10px;
+margin-left: -20px;
+border-bottom:  3px solid #a7a0a0
+}
+
+#texto-principal{
+font-family:'Michroma', sans-serif;;
+text-align: center;
+font-size: 60px
+
+}
+
+#foto-cria{
+padding-top: 10px;
+padding-left: 30px;
+height: 750px;
+}
+
