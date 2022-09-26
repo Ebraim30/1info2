@@ -69,12 +69,4 @@ typeof "5"
 // Operações e conversão entre tipos
 
 // Soma com tipos diferentes
-20 + 3
-"20" + 3
-20 + "3"
-"20" + "3"
-
-// Multiplicação com tipos diferentes
-20 * 3
-"20" * 3
-20 * "3"
+20 + 3>
