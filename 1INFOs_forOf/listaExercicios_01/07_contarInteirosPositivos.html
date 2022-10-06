@@ -7,10 +7,20 @@
 
     //ENTRADA
 
+let listadenumeros = [1, 2.5, -3, 4, 8.9, 4.789, -25.6, 42];
+let numerosinteiros = [];
+let numeropositivos = [];
+let resto = [];
+for (numero of listadenumeros){
+    if (numero > 0 && numero % 1 === 0) {
+        numeropositivos.push.push(numero)
+    }
+    else{
+        resto.push(numero)
+    }
+}
 
-    //PROCESSAMENTO
-
-
-    //SAÍDA
+//SAÍDA
+    documentation.write(`${numeropositivos} <br> ${numerosinteiros} <br> ${resto}`)
 
 </script>
