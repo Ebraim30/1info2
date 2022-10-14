@@ -1,10 +1,10 @@
 <script>
-let numero = Number(prompt("meta qualquer numero"))
+    const numero = Number(prompt("Informe o um número e direi sé e impar ou par"));
 
-if (numero.charset(0) === "1"||numero.charAt(0) === "3"||numero.charAt(0) === "5"||numero.charAt(0) === "7"||numero.charAt(0) === "9") {
-    document.write("O número é impar")
-} else {
-    document.write("O número é par")
-}
-
+    if (numero % 2 === 0) {
+        document.write(`Seu número e par ${numero}`)
+    }
+    else{
+        document.write(`Seu número e impar ${numero}`)
+    }
 </script>
