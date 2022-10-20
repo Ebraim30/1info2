@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+.botao{
+    border: 1px  solid green;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+.botao:hover{
+    border: 4px  solid green;
+
+}
+
+.botao-numero{
+    background-color: yellow;
+}
+.botao-operador{
+    background-color: rgb(218, 212, 212);
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 100px);
+}
+#visor{
+    border: 3px dotted red;
+    border-radius: 10px;
+
+    grid-column: 1 / span 4;
+
+    font-size: 20px;
+    line-height: 100px;
+    padding: 0px 20px;
+    
+
+}
+.botao-C{
+    grid-column: 4;
+}
