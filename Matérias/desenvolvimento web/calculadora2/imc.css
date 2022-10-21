@@ -1,0 +1,10 @@
+form{
+    display: table-cell;
+    text-align: center;
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
