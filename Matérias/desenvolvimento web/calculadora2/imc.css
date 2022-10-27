@@ -8,3 +8,28 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.perigo{
+    background-color: red;
+}
+.sem-risco-vida{
+    background-color: green;
+}
+.alerta{
+    background-color: yellow;
+}
+.saudável{
+    background-color: aquamarine;
+}
+.sem-risco{
+    background-color: green;;
+}
+.Alerta{
+    background-color: yellow;;
+}
+.Perigo{
+    background-color: red;
+}
+.procure-ajuda-médica{
+    background-color: rgba(255, 0, 0, 0.795);;
+}
