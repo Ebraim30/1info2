@@ -10,6 +10,23 @@
 
     //ENTRADA
 
+    const quantidade = Number(prompt("Quantos filmes deseja inserir"));
+    let comedia = [];
+    let drama = [];
+    let romance = [];
+    let semgenero = [];
+
+    for (let contador = 0; contador < quantidde; contador++){
+        let nome = prompt(`Qual o nome do filme ${contador+1}:`)
+        let genero = prompt(`Qual o genero do filme ${contador+1}(C:comedia||D:drama||R:romance)?`).toUpperCase();
+
+        (genero === "C")? comedia.push(nome)
+         :(genero === "D")? drama.push(nome)
+         :(genero === "R")? romance.push(nome)
+        : Semgenero.push(nome)
+    }
+
+    document.write(`Filmes de comedia: ${Comedia} <br> filmes de drama: ${drama} <br> Filmes de Romance: ${Romance} <br> Filmes sem genero: ${semgenero}`)
 
     //PROCESSAMENTO
 
